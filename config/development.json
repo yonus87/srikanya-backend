@@ -1,0 +1,25 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "password": "Pass123!@#",
+    "database": "srikanya"
+  },
+  "server": {
+    "port": 3000,
+    "env": "development"
+  },
+  "jwt": {
+    "secret": "your_dev_secret_key",
+    "expiresIn": "1h"
+  },
+  "log": {
+    "dir": "logs",
+    "format": "combined"
+  },
+  "cors": {
+    "origin": "*",
+    "credentials": true
+  }
+}
